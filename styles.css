@@ -1,0 +1,135 @@
+body{
+  background-image: url(./images/background_5.jpg);
+  color: #DBE8D4;
+}
+
+#navbar {
+  background-color: #525e65;
+  overflow: hidden; 
+   position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5px;
+  z-index: 1;
+}
+
+.navbar a{
+    padding:0 0.5rem;
+    color: #DBE8D4;
+    font-size: 20px;
+}
+
+.nav-item a:hover{
+  color: #73CCA8;
+}
+
+.navbar .navbar-brand:hover{
+  color: #73CCA8;
+}
+
+.social {
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+
+#hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.img-biking {
+  width: 50%;
+  margin-top: 20px;
+}
+
+
+.btn-resume {
+  background: #DBE8D4;
+  background-image: -webkit-linear-gradient(top, #DBE8D4, #DBE8D4);
+  background-image: -moz-linear-gradient(top, #DBE8D4, #DBE8D4);
+  background-image: -ms-linear-gradient(top, #DBE8D4, #DBE8D4);
+  background-image: -o-linear-gradient(top, #DBE8D4, #DBE8D4);
+  background-image: linear-gradient(to bottom, #DBE8D4, #DBE8D4);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #222733;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-resume:hover {
+  background: #73CCA8;
+  background-image: -webkit-linear-gradient(top, #73CCA8, #73CCA8);
+  background-image: -moz-linear-gradient(top, #73CCA8, #73CCA8);
+  background-image: -ms-linear-gradient(top, #73CCA8, #73CCA8);
+  background-image: -o-linear-gradient(top, #73CCA8, #73CCA8);
+  background-image: linear-gradient(to bottom, #73CCA8, #73CCA8);
+  text-decoration: none;
+}
+
+
+.card{
+  background-color: #CCDDDD;
+}
+
+.card_head{
+  background-color: #EEEEE7;
+}
+
+.tools-icon{
+  height: 2rem;
+}
+
+.info-box{
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  width: 100%;
+}
+
+.contact-icon{
+  font-size: 25px;
+  color: #DBE8D4;
+  line-height: 1;
+  margin-right: 12px;
+  transition: 0.3s;
+}
+
+.box-icon{
+  font-size: 28px;
+  color: #18d26e;
+  border-radius: 50%;
+  padding: 14px;
+  float: left;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 15px;
+}
+
+#contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 0 0 0 68px;
+}
+
+
+#contact .info-box .social-links {
+    margin: 5px 0 0 68px;
+    display: flex;
+}
+
+@media screen and (max-width:390px) {
+  .img-biking {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+
+
+  
+
+

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amer Sbeta</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Amer</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-2" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#resume">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#contact">Contact</a>
+              </li>
+            </ul>
+
+            <div class="social-part ms-auto">
+              <a
+                class="linkedin mx-2"
+                href="http://www.linkedin.com/in/amer-sbeta"
+                target="blank"
+                ><img class="social" src="./svg/linkedin.png"
+              /></a>
+              <a
+                class="facebook mx-2"
+                href="http://www.facebook.com/amer.sbetey"
+                target="blank"
+                ><img class="social" src="./svg/facebook.png"
+              /></a>
+              <a
+                class="instagram mx-2"
+                href="https://instagram.com/amer_sbetey?igshid=OGQ5ZDc2ODk2ZA=="
+                target="blank"
+                ><img class="social" src="./svg/instagram.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Navbar end -->
+
+    <!-- Hero section -->
+    <section id="hero" class="py-5 text-center">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <!-- Profile Img -->
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <img
+              src="./images/amer-modified.png"
+              class="d-block mx-lg-auto"
+              alt="Profile-img"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+
+          <!-- Hero info -->
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+              Amer Sbeta <br />Web Developer
+            </h1>
+            <p class="lead">
+              Full stack web developer. react | Angular | javascript | css |
+              html | nodeJS | mysql. I am highly motivated and my goal is to
+              specialize in Full Stack and become a skilled developer.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+              <button
+                type="button"
+                onclick="window.location.href='#resume';"
+                class="btn-resume"
+                fdprocessedid=""
+              >
+                Resume
+              </button>
+              <button
+                type="button"
+                onclick="window.location.href='#contact';"
+                class="btn btn-outline-secondary btn-lg px-4"
+                fdprocessedid="y3tb9r"
+              >
+                Contact
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+          <div class="col-xxl-8">
+            <div class="text-center my-5">
+              <h1 class="display-5 fw-bolder mb-2">
+                <span class="d-inline">About Me</span>
+              </h1>
+              <p class="lead fw-light mb-2">
+                My name is Amer Sbeta and I Am full stack web Developer
+              </p>
+              <p>
+                I am a full stuck web developer. I live in Haifa Israel, I work
+                in the field of social networks for the communication company
+                Bezeq. I love sports and love to ride a bike in the green Carmel
+                mountains.
+              </p>
+              <div class="d-flex justify-content-center gap-4">
+                <img
+                  class="img-biking"
+                  src="./images/biking.png"
+                  alt="biking-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About end -->
+
+    <!-- Resume -->
+    <section id="resume" class="py-5">
+      <div class="container px-5 my-5">
+        <div class="text-center mb-4">
+          <h1 class="display-5 fw-bolder mb-0">
+            <span class="d-inline">Resume</span>
+          </h1>
+        </div>
+        <div class="row gx-5 justify-content-center">
+          <div class="col-lg-11 col-xl-9 col-xxl-8">
+            <!-- Experience Section-->
+            <section>
+              <div
+                class="d-flex align-items-center justify-content-between mb-4"
+              >
+                <h2 class="fw-bolder mb-0">Experience</h2>
+              </div>
+              <!-- Experience Card 1-->
+              <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5">
+                  <div class="row align-items-center gx-5">
+                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                      <div class="card_head p-4 rounded-4">
+                        <div class="text-secondary fw-bolder mb-2">
+                          2021 - Present
+                        </div>
+                        <div class="small fw-bolder">
+                          Social Media Specialist
+                        </div>
+                        <div class="small text-muted">Bezeq</div>
+                        <div class="small text-muted">Haifa</div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div>
+                        Managing the company's social media pages, preventing
+                        negative publicity, and providing streamlining
+                        suggestions to improve work processes
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Experience Card 2-->
+              <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5">
+                  <div class="row align-items-center gx-5">
+                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                      <div class="card_head p-4 rounded-4">
+                        <div class="text-secondary fw-bolder mb-2">
+                          2017 - 2021
+                        </div>
+                        <div class="small fw-bolder">Technical Support</div>
+                        <div class="small text-muted">Bezeq</div>
+                        <div class="small text-muted">Haifa</div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div>
+                        Providing service, retaining customers, and achieving
+                        goals under pressure. Technical support (routers and
+                        networking products).
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Experience Card 3-->
+              <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5">
+                  <div class="row align-items-center gx-5">
+                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                      <div class="card_head p-4 rounded-4">
+                        <div class="text-secondary fw-bolder mb-2">2019</div>
+                        <div class="small fw-bolder">Practical experience</div>
+                        <div class="small text-muted">John Bryce</div>
+                        <div class="small text-muted">College</div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div>
+                        <ul>
+                          <li>Calendar Project: Javascript, html5, CSS.</li>
+                          <li>
+                            Currencies data Project: Javascript, Jquery, html5,
+                            CSS, Rest Api to.
+                          </li>
+                          <li>
+                            Vacation booking Project: React, node.js, mysql.
+                          </li>
+                          <li>
+                            Virtual Store project: Angular 7, node.js, mysql.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Experience Card 4-->
+              <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5">
+                  <div class="row align-items-center gx-5">
+                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                      <div class="card_head p-4 rounded-4">
+                        <div class="text-secondary fw-bolder mb-2">
+                          2012-2017
+                        </div>
+                        <div class="small fw-bolder">Sales Manager</div>
+                        <div class="small text-muted">IPG Capital</div>
+                        <div class="small text-muted">Haifa</div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div>
+                        Establishment of an investment department, building
+                        procedures, recruiting employees, managing a sales team,
+                        and developing applications to improve and streamline
+                        work processes.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Education Section-->
+            <section>
+              <h2 class="fw-bolder mb-4">Education</h2>
+              <!-- Education Card 1-->
+              <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5">
+                  <div class="row align-items-center gx-5">
+                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                      <div class="card_head p-4 rounded-4">
+                        <div class="text-secondary fw-bolder mb-2">
+                          2023-present
+                        </div>
+                        <div class="mb-2">
+                          <div class="small fw-bolder">Udemy</div>
+                          <div class="small text-muted">Online</div>
+                        </div>
+                        <div class="fst-italic">
+                          <div class="small text-muted">Diploma</div>
+                          <div class="small text-muted">Web Development</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div>
+                        I am studying the course again, in order to start
+                        working as an employee or freelancer. Full-Stack Web
+                        Developer. HTML, CSS, Javascript, Node, React, MongoDB,
+                        Web3 and DApps.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Education Card 2-->
+              <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5">
+                  <div class="row align-items-center gx-5">
+                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                      <div class="card_head p-4 rounded-4">
+                        <div class="text-secondary fw-bolder mb-2">
+                          2018-2019
+                        </div>
+                        <div class="mb-2">
+                          <div class="small fw-bolder">John Bryce</div>
+                          <div class="small text-muted">College</div>
+                        </div>
+                        <div class="fst-italic">
+                          <div class="small text-muted">Diploma</div>
+                          <div class="small text-muted">
+                            Full stack web developing
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div>
+                        Full stack web developing. react, angulat, javascript,
+                        html5, CSS, nodeJS, mysql. with final grade 94
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Education Card 3-->
+              <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5">
+                  <div class="row align-items-center gx-5">
+                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                      <div class="card_head p-4 rounded-4">
+                        <div class="text-secondary fw-bolder mb-2">
+                          2014-2015
+                        </div>
+                        <div class="mb-2">
+                          <div class="small fw-bolder">John Bryce</div>
+                          <div class="small text-muted">College</div>
+                        </div>
+                        <div class="fst-italic">
+                          <div class="small text-muted">Diploma</div>
+                          <div class="small text-muted">
+                            Mobile App Developer
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div>
+                        Mobile developer, Android & Iphone. I built a car garage
+                        app as a project completion. course topics: java , obj-c
+                        , swift , HTML , java-script . Experience on platforms ,
+                        Android studio, eclips , excodeand netbeans
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Divider-->
+            <div class="pb-5"></div>
+            <!-- Skills Section-->
+            <section>
+              <!-- Skillset Card-->
+              <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5">
+                  <!-- Professional skills list-->
+                  <div class="mb-5">
+                    <div class="d-flex align-items-center mb-4">
+                      <div class="me-3">
+                        <img
+                          class="tools-icon"
+                          src="./svg/tools.svg"
+                          alt="tools-icon"
+                        />
+                      </div>
+                      <h3 class="fw-bolder mb-0">
+                        <span class="d-inline">Professional Skills</span>
+                      </h3>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 mb-4">
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          Digital Strategy
+                        </div>
+                      </div>
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          Analytical Skills
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          Web Development
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3">
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          Team Leadership
+                        </div>
+                      </div>
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          Telecommunications
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          Project Management
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Languages list-->
+                  <div class="mb-0">
+                    <div class="d-flex align-items-center mb-4">
+                      <div class="me-3">
+                        <img
+                          class="tools-icon"
+                          src="./svg/code-slash.svg"
+                          alt="code-slash"
+                        />
+                      </div>
+                      <h3 class="fw-bolder mb-0">
+                        <span class="d-inline">Languages</span>
+                      </h3>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 mb-4">
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          HTML
+                        </div>
+                      </div>
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          CSS
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          JavaScript
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3">
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          React
+                        </div>
+                      </div>
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          Angular
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div
+                          class="d-flex align-items-center card_head rounded-4 p-3 h-100"
+                        >
+                          Node.js
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Resume -->
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="py-5">
+      <div class="container px-5 my-5">
+        <div class="text-center mb-5">
+          <h1 class="display-5 fw-bolder mb-0">
+            <span class="d-inline">Contact Me </span>
+          </h1>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-map box-icon"></i>
+              <h3>My Address</h3>
+              <p>Alworod St' 6, Daliat Elcarmel, Israel</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-share-alt box-icon"></i>
+              <h3>Social Profiles</h3>
+              <div class="social-links">
+                <a
+                  href="http://www.linkedin.com/in/amer-sbeta"
+                  class="contact-icon"
+                  ><i class="bx bxl-linkedin-square"></i
+                ></a>
+                <a
+                  href="http://www.facebook.com/amer.sbetey"
+                  class="contact-icon"
+                  ><i class="bx bxl-facebook-square"></i
+                ></a>
+                <a
+                  href="https://instagram.com/amer_sbetey?igshid=OGQ5ZDc2ODk2ZA=="
+                  class="contact-icon"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-envelope box-icon"></i>
+              <h3>Email Me</h3>
+              <p>amersbeta@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-phone-call box-icon"></i>
+              <h3>Call Me</h3>
+              <p>+972 524677015</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 mt-auto">
+      <div class="container px-5 d.d-flex">
+        <div class="row gx-5 justify-content-center text-center">
+          <p class="copyright">© Amer Sbeta @ My personal site</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
