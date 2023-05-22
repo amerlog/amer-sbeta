@@ -129,7 +129,11 @@ body{
   }
 }
 
-
+@media screen and (max-width:992px) {
+  .social-part{
+    margin-top: 15px;
+  }
+}
   
 
 
